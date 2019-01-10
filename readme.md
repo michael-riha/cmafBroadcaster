@@ -37,8 +37,8 @@ it enables you at the moment to start a CMAF teststream with a teststream and ou
 
 ## how to run ?
 
-``` docker run -it -p 8000:8000 -v <host absolute path>:/out <LABEL NAME eg. rihabitmovin/cmafbroadcaster>
-```
+`docker run -it -p 8000:8000 -v <host absolute path>:/out <LABEL NAME eg. rihabitmovin/cmafbroadcaster>
+`
 you should now be able to open your browser `http://localhost:8000` which shows you the `Akamai Broadcaster` interface, which again, will NOT work because it should run on a maschine with hardware attached to produce a stream.
 
 I do just use this `Akamai Broadcaster` as a kind of a webserver component for the time beeing. (STUPID but true!)
