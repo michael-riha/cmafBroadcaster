@@ -1,0 +1,4 @@
+mod-wsgi==4.6.5
+psutil==5.4.8
+webapp2==2.5.2
+WebOb==1.8.4
