@@ -3,8 +3,8 @@
 
  pretty much everything is copied from two sources, so all the credits to them.
 
- - https://github.com/streamlinevideo/low-latency-preview ("@colleenkhenry")
- - https://github.com/jkarthic-akamai/ABR-Broadcaster/ ("@jkarthic-akamai")
+ - https://github.com/streamlinevideo/low-latency-preview ( @colleenkhenry )
+ - https://github.com/jkarthic-akamai/ABR-Broadcaster/ ( @jkarthic-akamai )
 
 This project is just a tiny feasibility study!
 Is is very limited at the moment, but I will add stuff. ;-)
@@ -53,12 +53,12 @@ With the url `http://localhost:8000/static/manifest.mpd` you can now feed a play
 
 ###credits:
 
- "@colleenkhenry" did a great job for me to set up a simple CMAF stream at the beginning
+ @colleenkhenry did a great job for me to set up a simple CMAF stream at the beginning
 but since I am not familiar with `go` I skipped the Server part <br>
 which would have been essential since CMAF has it's strength with `HTTP chunked encoding`.
 
 This is a subject this project is completely missing at the moment!
 
-"@jkarthic-akamai" thank for doing this great job on ffmpeg and for giving me so <br>
+@jkarthic-akamai thank for doing this great job on ffmpeg and for giving me so <br>
 much ffmpeg commands as output from your server. I even sticked to your `pythong setup` with `mod_wsgi` <br>
 but since I didn't want to mess up my maschine with a manually `ffmpeg` build, I remixed it with @colleenkhenry way to install.
