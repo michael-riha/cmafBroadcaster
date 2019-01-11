@@ -3,8 +3,8 @@
 
  pretty much everything is copied from two sources, so all the credits to them.
 
- - https://github.com/streamlinevideo/low-latency-preview (@colleenkhenry)
- - https://github.com/jkarthic-akamai/ABR-Broadcaster/ (@jkarthic-akamai)
+ - https://github.com/streamlinevideo/low-latency-preview ( @colleenkhenry )
+ - https://github.com/jkarthic-akamai/ABR-Broadcaster/ ( @jkarthic-akamai )
 
 This project is just a tiny feasibility study!
 Is is very limited at the moment, but I will add stuff. ;-)
