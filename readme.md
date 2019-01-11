@@ -51,6 +51,13 @@ With the url `http://localhost:8000/static/manifest.mpd` you can now feed a play
 - enable chunked output in `webapp2` has to be written
 - make it as extendable as possible
 
+## Updates:
+
+- 01/11/19: added environment variable to choos between steams
+`docker run -it -p 8000:8000 -e "STREAM=with_audio"  -v <LOCAL PATH>:/out rihabitmovin/cmafbroadcaster`
+<br>
+_default is `with_audio` anyway all others are the same but without any audio! ;-)_
+
 ###credits:
 
  @colleenkhenry did a great job for me to set up a simple CMAF stream at the beginning

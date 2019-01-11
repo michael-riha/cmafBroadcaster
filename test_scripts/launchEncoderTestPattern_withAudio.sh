@@ -18,7 +18,7 @@ x264enc='libx264 -tune zerolatency -profile:v high -preset veryfast -bf 0 -refs 
     -g 150 \
     -keyint_min 150 \
     -b:v 4000k \
-    -vf "fps=30,drawtext=fontfile=utils/OpenSans-Bold.ttf:box=1:fontcolor=black:boxcolor=white:fontsize=100':x=40:y=400:textfile=utils/text.txt" \
+    -vf "fps=30,drawtext=fontfile=/tmp/utils/OpenSans-Bold.ttf:box=1:fontcolor=black:boxcolor=white:fontsize=100':x=40:y=400:textfile=/tmp/utils/text.txt" \
     -c:a aac -ar 48000 -ac 2 \
     -seg_duration 5 \
     -streaming 1 \

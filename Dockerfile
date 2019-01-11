@@ -11,7 +11,10 @@ RUN apt-get update && apt-get install -y \
   #apache2-utils
   #&& mkdir /tmp
 
+#https://vsupalov.com/docker-arg-env-variable-guide/
 ENV OUTPUT_FOLDER="/out"
+ENV STREAM="with_audio"
+
 
 COPY install_scripts /tmp
 COPY test_scripts /tmp
