@@ -22,6 +22,10 @@ case "$STREAM" in
     echo "starting stream with audio"
     /tmp/launchEncoderTestPattern_withAudio.sh > /out/output.log 2>&1 < /dev/null &
     ;;
+"playlist")
+    echo "starting stream from a playlist"
+    /tmp/launchEncoderPlaylist.sh > /out/output.log 2>&1 < /dev/null &
+    ;;
 *)
     echo "starting stream without audio"
     /tmp/launchEncoderTestPattern.sh > /out/output.log 2>&1 < /dev/null &

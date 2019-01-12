@@ -34,6 +34,7 @@ RUN useradd -ms /bin/bash wsgi \
     && ls -la $OUTPUT_FOLDER
 
 VOLUME ["/out"]
+VOLUME ["/tmp/test_scripts/playlists"]
 
 RUN sh /tmp/install.sh # install ffmpeg prebuild and python stuff
 

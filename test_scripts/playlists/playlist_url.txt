@@ -1,0 +1,12 @@
+#https://github.com/FFmpeg/FFmpeg/blob/master/tests/extended.ffconcat
+
+file 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
+duration 5.0
+# results in an error!
+#inpoint   00:00.00
+#outpoint  00:04.00
+
+file 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4'
+duration 5.0
+
+file 'playlist_url.txt'
